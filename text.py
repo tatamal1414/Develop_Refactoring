@@ -1,4 +1,4 @@
-def text(str1, num1, sum2):
+def print_text(str1, num1_weight, num2_height):
     str1 = "あいうえお"
     num1 = 123456
     if not 5 <= len(str1) <=10:
