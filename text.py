@@ -23,6 +23,6 @@ def print_text(str1, num1_weight, num2_height):
         raise Exception('5文字以下もしくは10文字以上です')
     if not(str1.isalpha() and str1.isascii()):
         raise Exception('アルファベット(a~z,A~Z)で入力してください')
-
+    #TODO:エラー文以外の結果を出力したい
 
 
